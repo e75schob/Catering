@@ -1,0 +1,466 @@
+
+
+
+
+body{
+font-family: 'Montserrat';
+text-align: center;
+margin: auto;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+font-family: "Montserrat-Bold";
+
+}
+
+
+h1{
+  font-family: 'Montserrat-Bold', sans-serif;
+  size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+
+p{
+  color:#8f8f8f;
+}
+
+/* Containers */
+
+
+.container-fluid{
+
+  padding: 7% 15%;
+
+}
+
+/* Section */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar{
+
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand{
+
+font-family: 'Ubuntu';
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item{
+
+  padding: 0 18px;
+}
+
+.nav-link{
+
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Title Section */
+
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Download Button */
+
+.download-button{
+
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.col-lg-6{
+  position: relative;
+}
+
+.title-image{
+
+  width: 60%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+
+}
+
+
+
+
+/* Headings */
+
+/*.big-heading{
+font-family: "Montserrat-Black";
+font-size: 3.5rem;
+line-height: 1.5;
+}*/
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+/* Features */
+
+
+
+/*Pictures */
+
+#testimonials{
+
+background-color: #ef8172;
+
+
+}
+
+
+
+.testimonial-image{
+
+
+margin: 20px;
+width: 100%;
+ height: auto;
+}
+
+
+.grid-column{
+  margin: 15px;
+  width: 100%;
+   height: auto;
+}
+
+
+
+/* Testimonial Section */
+#testimonials1{
+
+background-color: #ef8172;
+
+
+}
+
+.testimonial-text{
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Pricing Section */
+
+
+
+/* CTA */
+
+
+
+
+
+/* Footer Section */
+
+
+
+.social-icon {
+
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+
+  #title {
+text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.bottom {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+
+
+.middle {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+
+
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+
+
+
+a{
+  text-decoration: none;
+}
+
+
+/*Order Page*/
+
+.modal-dialog{
+  width: 100%;
+  max-width:500px;
+
+
+}
+
+.loginFixed {
+position:absolute;
+
+top:0;
+right:0;
+left: auto;
+
+}
+
+.grid{
+  margin-top: 40px;
+}
+
+
+/*Checkout Form*/
+
+body{background: #f5f5f5}.rounded{border-radius: 1rem}.nav-pills .nav-link{color: #555}.nav-pills .nav-link.active{color: white}input[type="radio"]{margin-right: 5px}.bold{font-weight:bold}
+
+/*steps form-signincheckoutguest form*/
+* {
+	margin: 0;
+	padding: 0
+}
+
+html {
+	height: 100%
+}
+
+h2{
+	color: #2F8D46;
+}
+#form {
+	text-align: center;
+	position: relative;
+	margin-top: 20px
+}
+
+#form fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 0.5rem;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	padding-bottom: 20px;
+	position: relative
+}
+
+.finish {
+	text-align: center
+}
+
+#form fieldset:not(:first-of-type) {
+	display: none
+}
+
+#form .previous-step, .next-step {
+	width: 100px;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 0px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px 10px 0px;
+	float: right
+}
+
+.form, .previous-step {
+	background: #616161;
+}
+
+.form, .next-step {
+	background: #2F8D46;
+}
+
+#form .previous-step:hover,
+#form .previous-step:focus {
+	background-color: #000000
+}
+
+#form .next-step:hover,
+#form .next-step:focus {
+	background-color: #2F8D46
+}
+
+.text {
+	color: #2F8D46;
+	font-weight: normal
+}
+
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	color: lightgrey
+}
+
+#progressbar .active {
+	color: #2F8D46
+}
+
+#progressbar li {
+	list-style-type: none;
+	font-size: 15px;
+	width: 25%;
+	float: left;
+	position: relative;
+	font-weight: 400
+}
+
+#progressbar #step1:before {
+	content: "1"
+}
+
+#progressbar #step2:before {
+	content: "2"
+}
+
+#progressbar #step3:before {
+	content: "3"
+}
+
+#progressbar #step4:before {
+	content: "4"
+}
+
+#progressbar li:before {
+	width: 50px;
+	height: 50px;
+	line-height: 45px;
+	display: block;
+	font-size: 20px;
+	color: #ffffff;
+	background: lightgray;
+	border-radius: 50%;
+	margin: 0 auto 10px auto;
+	padding: 2px
+}
+
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: lightgray;
+	position: absolute;
+	left: 0;
+	top: 25px;
+	z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+	background: #2F8D46
+}
+
+.progress {
+	height: 20px
+}
+
+.progress-bar {
+	background-color: #2F8D46
+}
+
+/*optionscheckout*/
+
+label {
+    margin-bottom: 10px;
+}
+
+@media (max-width:600px){
+
+.column {
+   width: 50%;
+ }
+
+ /*shopping cart*/
+
+ .img-cart {
+    display: block;
+    max-width: 50px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tr td{
+    border:1px solid #FFFFFF;
+}
+
+table tr th {
+    background:#eee;
+}
+
+.panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+
+
+
+}
+
+/*optionscheckout*/
+.grid .g-col-4{
+  height: fit-content;
+}
+
+.margin{
+  margin-left: 10px;
+}
+/*navbar code might help*/
+
+/* Style Header Section and navbar*/
