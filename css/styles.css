@@ -53,6 +53,7 @@ p{
 .navbar{
 
   padding-bottom: 0 0 4.5rem;
+  white-space: nowrap;
 }
 
 .navbar-brand{
@@ -60,10 +61,11 @@ p{
 font-family: 'Ubuntu';
 font-size: 2.5rem;
 font-weight: bold;
+margin-right: 5px;
 }
 
 .nav-item{
-
+margin-left: 5px;
   padding: 0 18px;
 }
 
@@ -458,9 +460,7 @@ table tr th {
   height: fit-content;
 }
 
-.margin{
-  margin-left: 10px;
-}
+
 /*navbar code might help*/
 
 /* Style Header Section and navbar*/
